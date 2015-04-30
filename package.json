@@ -1,0 +1,45 @@
+{
+  "name": "passport-ibm-connections-basic",
+  "version": "1.0.0",
+  "description": "A passport basic authentication strategy for IBM Connections",
+  "homepage": "https://github.com/benkroeger/passport-ibm-connections-basic#readme",
+  "author": {
+    "name": "Benjamin Kroeger",
+    "email": "benjamin.kroeger@gmail.com"
+  },
+  "repository": "benkroeger/passport-ibm-connections-basic",
+  "license": "Apache 2.0",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "passport-ibm-connections-basic",
+    "passport",
+    "ibm-connections",
+    "authentication",
+    "basic",
+    "strategy",
+    "ibm",
+    "connections",
+    "express",
+    "connect"
+  ],
+  "dependencies": {
+    "lodash": "^3.7.0",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
