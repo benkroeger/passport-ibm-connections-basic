@@ -1,11 +1,12 @@
 # passport-ibm-connections-basic
-A passport basic authentication strategy for IBM Connections 
+
+A passport basic authentication strategy for IBM Connections
 
 This strategy allows to use IBM Connections as an authentication backend by leveraging the OpenSocial People API with the basic authentication interceptor in WebSphere Application Server.
 
 Available options and defaults:
 
-```
+```js
 {
     usernameField: 'username',
     passwordField: 'password',
@@ -20,6 +21,6 @@ Available options and defaults:
       'user-agent': 'Mozilla/5.0'
     }
   }
- ```
+```
 
- `authHostname` is required!
+`authHostname` is required!
